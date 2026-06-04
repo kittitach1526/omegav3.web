@@ -308,9 +308,9 @@ export default function MembersLanding() {
               </span>
             </div>
 
-            <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tighter text-white">
+            <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tighter text-[#00eaff]">
               OMEGA_
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ff003c] via-[#ff003c] to-white">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#00eaff] via-[#00eaff] to-white">
                 MEMBERS
               </span>
             </h1>
