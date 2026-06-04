@@ -12,11 +12,10 @@ export const getMembers = async () => {
   // นับจำนวนข้อมูลทั้งหมด
   const totalMembers = memberList.length;
 
-  console.log("ข้อมูลสมาชิกทั้งหมด:", memberList);
-  console.log("จำนวนสมาชิก:", totalMembers);
+  // console.log("ข้อมูลสมาชิกทั้งหมด:", memberList);
+  // console.log("จำนวนสมาชิก:", totalMembers);
 
   return {
-    members: memberList,
-    total: totalMembers
+    members: memberList
   };
 };

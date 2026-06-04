@@ -563,7 +563,7 @@ export default function WelcomePage() {
 
             <span className="relative z-10 flex items-center gap-3">
 
-              INITIALIZE SEQUENCE
+              VIEW MEMBERS
 
               <span className="w-2 h-5 bg-black group-hover:bg-white animate-pulse"></span>
 
