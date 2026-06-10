@@ -7,6 +7,7 @@ import './App.css'
 
 import MembersLanding from './pages/index.jsx'
 import WelcomePage from './pages/welcome.jsx'
+import EsportMemberForm from './pages/addMember.jsx'
 
 // อิมพอร์ตหน้าต่างๆ มาใช้งาน (หรือประกาศไว้ด้านบนแบบนี้ก่อนได้ครับ)
 function Home() { return <div className="page"><h2>หน้าแรก (Home)</h2><img src={heroImg} alt="Hero" style={{maxWidth: '300px'}} /></div> }
@@ -30,6 +31,9 @@ function App() {
         
         {/* path="/contact" คือหน้า http://localhost:5173/contact */}
         <Route path="/contact" element={<Contact />} />
+
+
+        <Route path="/admin" element={<EsportMemberForm />} />
       </Routes>
     </BrowserRouter>
   )
