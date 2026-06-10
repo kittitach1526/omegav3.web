@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const ROLES = ["Player", "Coach", "Manager", "Analyst", "Streamer", "Admin"];
+const ROLES = ["Head","Member","Support"];
 
 const ROLE_COLORS = {
   Player: "from-red-600 to-red-800",
@@ -383,13 +383,13 @@ export default function EsportMemberForm() {
                 ◈ FACEBOOK <span className="text-gray-600">[STR]</span>
               </label>
               <div className="relative">
-                <span className="absolute left-3 top-1/2 -translate-y-1/2 text-red-700 font-mono text-sm">fb://</span>
+                <span className="absolute left-3 top-1/2 -translate-y-1/2 text-red-700 font-mono text-sm">URL:</span>
                 <input
                   type="text"
                   name="facebook"
                   value={form.facebook}
                   onChange={handleChange}
-                  placeholder="facebook.com/username"
+                  placeholder="https://www.facebook.com/sapphxre"
                   className="input-esport w-full rounded pl-12 pr-3 py-2.5 text-sm font-mono"
                 />
               </div>
